@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "ZCTradeView.h"
 
-@interface ViewController ()
+@interface ViewController ()<ZCTradeViewDelegate>
 
 @end
 
@@ -19,11 +20,13 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)showTradeView:(id)sender {
+     [[[ZCTradeView alloc] init] show];
 }
 
+-(NSString *)finish:(NSString *)pwd{
+    
+    return pwd;
+}
 
 @end

@@ -16,6 +16,12 @@
 		2F22715A1DE67FC900475F7C /* GSTradeViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2271591DE67FC900475F7C /* GSTradeViewDemoTests.m */; };
 		2F2271881DE6891F00475F7C /* trade.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F2271871DE6891F00475F7C /* trade.bundle */; };
 		2F22718B1DE6894E00475F7C /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F22718A1DE6894E00475F7C /* NSString+Extension.m */; };
+		2F22718E1DE68A4400475F7C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F22718D1DE68A4400475F7C /* UIView+Extension.m */; };
+		2F2271911DE68A9600475F7C /* UIAlertView+Quick.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2271901DE68A9600475F7C /* UIAlertView+Quick.m */; };
+		2F2271941DE68AF900475F7C /* ZCTradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2271931DE68AF900475F7C /* ZCTradeView.m */; };
+		2F2271971DE68B5D00475F7C /* ZCTradeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2271961DE68B5D00475F7C /* ZCTradeInputView.m */; };
+		2F22719A1DE68B9900475F7C /* ZCTradeKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2271991DE68B9900475F7C /* ZCTradeKeyboard.m */; };
+		2F22719E1DE68C2A00475F7C /* ZCAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F22719D1DE68C2A00475F7C /* ZCAudioTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,19 @@
 		2F2271871DE6891F00475F7C /* trade.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = trade.bundle; sourceTree = "<group>"; };
 		2F2271891DE6894E00475F7C /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		2F22718A1DE6894E00475F7C /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		2F22718C1DE68A4400475F7C /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2F22718D1DE68A4400475F7C /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2F22718F1DE68A9600475F7C /* UIAlertView+Quick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Quick.h"; sourceTree = "<group>"; };
+		2F2271901DE68A9600475F7C /* UIAlertView+Quick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Quick.m"; sourceTree = "<group>"; };
+		2F2271921DE68AF900475F7C /* ZCTradeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTradeView.h; sourceTree = "<group>"; };
+		2F2271931DE68AF900475F7C /* ZCTradeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTradeView.m; sourceTree = "<group>"; };
+		2F2271951DE68B5D00475F7C /* ZCTradeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTradeInputView.h; sourceTree = "<group>"; };
+		2F2271961DE68B5D00475F7C /* ZCTradeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTradeInputView.m; sourceTree = "<group>"; };
+		2F2271981DE68B9900475F7C /* ZCTradeKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTradeKeyboard.h; sourceTree = "<group>"; };
+		2F2271991DE68B9900475F7C /* ZCTradeKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTradeKeyboard.m; sourceTree = "<group>"; };
+		2F22719B1DE68BFD00475F7C /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		2F22719C1DE68C2A00475F7C /* ZCAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCAudioTool.h; sourceTree = "<group>"; };
+		2F22719D1DE68C2A00475F7C /* ZCAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCAudioTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +142,19 @@
 				2F2271871DE6891F00475F7C /* trade.bundle */,
 				2F2271891DE6894E00475F7C /* NSString+Extension.h */,
 				2F22718A1DE6894E00475F7C /* NSString+Extension.m */,
+				2F22718C1DE68A4400475F7C /* UIView+Extension.h */,
+				2F22718D1DE68A4400475F7C /* UIView+Extension.m */,
+				2F22718F1DE68A9600475F7C /* UIAlertView+Quick.h */,
+				2F2271901DE68A9600475F7C /* UIAlertView+Quick.m */,
+				2F2271921DE68AF900475F7C /* ZCTradeView.h */,
+				2F2271931DE68AF900475F7C /* ZCTradeView.m */,
+				2F2271951DE68B5D00475F7C /* ZCTradeInputView.h */,
+				2F2271961DE68B5D00475F7C /* ZCTradeInputView.m */,
+				2F2271981DE68B9900475F7C /* ZCTradeKeyboard.h */,
+				2F2271991DE68B9900475F7C /* ZCTradeKeyboard.m */,
+				2F22719B1DE68BFD00475F7C /* Singleton.h */,
+				2F22719C1DE68C2A00475F7C /* ZCAudioTool.h */,
+				2F22719D1DE68C2A00475F7C /* ZCAudioTool.m */,
 			);
 			path = GSTradeView;
 			sourceTree = "<group>";
@@ -231,8 +263,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F22718E1DE68A4400475F7C /* UIView+Extension.m in Sources */,
 				2F2271471DE67FC900475F7C /* ViewController.m in Sources */,
 				2F2271441DE67FC900475F7C /* AppDelegate.m in Sources */,
+				2F2271911DE68A9600475F7C /* UIAlertView+Quick.m in Sources */,
+				2F2271941DE68AF900475F7C /* ZCTradeView.m in Sources */,
+				2F22719E1DE68C2A00475F7C /* ZCAudioTool.m in Sources */,
+				2F22719A1DE68B9900475F7C /* ZCTradeKeyboard.m in Sources */,
+				2F2271971DE68B5D00475F7C /* ZCTradeInputView.m in Sources */,
 				2F2271411DE67FC900475F7C /* main.m in Sources */,
 				2F22718B1DE6894E00475F7C /* NSString+Extension.m in Sources */,
 			);
