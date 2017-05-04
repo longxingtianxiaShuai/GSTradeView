@@ -18,6 +18,7 @@
 
 - (void)setX:(CGFloat)x
 {
+    NSLog(@"没有改变");
     CGRect frame = self.frame;
     frame.origin.x = x;
     self.frame = frame;
